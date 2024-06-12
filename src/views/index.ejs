@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<%- include('./partials/head.ejs',{title : "Login"}) %>
+
+<body>
+<main class="main_index">
+<section class="section_index">
+<h1 class="section_index-h1">DIGITALHOUSE</h1>
+</section>
+<section  class="section_index_login">
+<h2 class="section_index_login-h2"> Te damos la bienvenida</h2>
+<p class="section_index_login-p">Ingresa tus credenciales</p>
+<div class="div-section_index_login">
+  <form action=""class="div-section_index_login" >
+    <div class="section_index_login-div">
+      <label for="email" class=""
+        >Email</label
+      >
+      <input
+        type="email"
+        name="email"
+        class=""
+        id="email"
+        placeholder="name@example.com"
+      />
+    </div>
+    <div class="section_index_login-div" >
+      <label for="passward" class="">Contraseña</label>
+      <input
+        type="passward"
+        name="passward"
+        class=""
+        id="passward"
+      />
+    </div>
+    <div >
+      <button class="section_index_login-button" > <a href="/inicio">Ingresar</a></button>
+     
+     </div>
+    </div>
+  </form>
+  
+</div>
+<p class="p-section_index_login">olvidaste tu Contraseña</p>
+<p class="p-section_index_login">o</p>
+<div >
+  <button class="section_index_login-button-google" >Ingresar con google</button>
+    </div>
+</section>
+
+
+
+</main>
+</body>
+
+</html>

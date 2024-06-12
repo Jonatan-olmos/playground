@@ -1,0 +1,31 @@
+.header-section{
+    display:inline-flex;
+    width: 100%;
+border-bottom: 1px solid black;
+}
+.section_div{
+width: 20%;
+padding-left: 50px;
+padding-right: 0px;
+font-size:10px;
+}
+.section_div_2{
+    padding-top: 5px;
+    padding-left: 0px; 
+font-size:7px;
+
+}
+.section_div_p{
+    background-color: aqua;
+    border-radius: 20px;
+    height:25px;
+    width: 25px;
+    text-align: center;
+    margin-top: 8px;
+ }
+.section_div_3{
+    position: fixed;
+    right: 50px;
+  padding-bottom: 15px;
+
+}
