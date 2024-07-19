@@ -11,12 +11,19 @@ module.exports ={
     inicio :(req, res) =>{
        
         //return res.send(products)
-        return res.render('inicio',
+        return res.render('paginas/inicio',
             ({title : 'hola'})
     
         )
     },
-  
+    principalCursos :(req, res) =>{
+       
+        //return res.send(products)
+        return res.render('paginas/principalCursos',
+            ({title : 'hola'})
+    
+        )
+    },
 
-
+    
 }
