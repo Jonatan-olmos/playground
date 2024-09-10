@@ -1,0 +1,70 @@
+.main_index{
+  
+	width:100%;
+	display:inline-flex;
+	height: 100%;
+}
+.section_index{
+	width: 50%;
+background-color: #e5e7eb;
+height: 1000px;
+
+}
+.section_index-h1{
+	padding-left: 15%;
+}
+.section_index_login{
+	text-align:left;
+	padding-left: 8%;
+	padding-top: 10%;
+	background-color: rgb(240 240 240);
+	height: 1000px;	
+	width: 50%;
+}
+.section_index_login-h2{
+	font-size: 20px;
+	margin:0px;
+}
+.section_index_login-p{
+	font-size: 15px;
+	margin:5px 0px;
+	}
+	.div-section_index_login{
+		display: flex;
+		flex-direction: column;
+	}
+.section_index_login-div{
+	display:inline-grid;
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+.section_index_login-div  input{
+	height: 30px;
+	border-radius: 10px;
+	width: 80%;
+}
+.section_index_login-div  label{
+padding-bottom: 10px;
+}
+.section_index_login-button{
+	background-color: black;
+	color: #ffff;
+	height: 30px;
+	border-radius: 10px;
+	width: 82%;
+}
+.p-section_index_login{
+	text-align: center;
+	padding-left: -100px
+}
+
+.section_index_login-button-google{
+	background-color: #ffff;
+	color:black;
+	height: 30px;
+	border-radius: 10px;
+	width: 82%;
+}

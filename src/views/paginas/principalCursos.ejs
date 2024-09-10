@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head.ejs',{title : "inicio" }) %>
+
+<body>
+  <%- include('../partials/header.ejs',) %>
+    <main class="main_principalCursos">
+
+
+      <nav class="nav_principalCursos " style="--bs-breadcrumb-divider: '>';  " aria-label="breadcrumb">
+        <ol class="breadcrumb  ">
+          <li class="breadcrumb-item  "><a href="/inicio" class="main_principalCursos_a">Mis cursos </a></li>
+          <li class="breadcrumb-item active" aria-current="page"><a href="#" class="main_principalCursos_b">Formate
+              2024</a> </li>
+        </ol>
+      </nav>
+
+
+      <section class="section_principalCursos">
+        <section class="section_principalCursos-section">
+          <h2 class="section_principalCursos-section-h2">Continúa cursando</h2>
+
+          <article class="main_principalCursos_articulo">
+
+            <div class="main_principalCursos_articulo_div">
+
+              <div class="main_principalCursos_articulo_div1">
+                <i class="fa-solid fa-play" style="color:  #375ecf ; "></i>
+              </div>
+              <div class="main_principalCursos_articulo_div2"></div>
+
+            </div>
+            <div class="div_principalCursos_articulo-1">
+              <h3 class="main_principalCursos_articulo_h3">Formate 2024</h3>
+
+              <h2 class="main_principalCursos_articulo_h2">titulo: sub titulo</h2>
+              <div class="div_principalCursos_titulo-modulo">
+
+
+                <p class="main_principalCursos_articulo_p">modulo x</p>
+                <p class="main_principalCursos_articulo_x">classe: x - Episodio: x</p>
+              </div>
+            </div>
+
+          </article>
+        </section>
+        <section class="section_principalCursos-section-1">
+          <h3 class="main_principalCursos_izquierda_p">Curso en Empresa</h3>
+          <h2 class="main_principalCursos_izquierda_h2">Formacion 2024 - 021303 </h2>
+
+          <p class="main_principalCursos_izquierda_p">Tu progreso</p>
+     <article class="article-principalCursos_articulo">
+
+      <div class="div-principalCursos_articulo">
+
+        <%- include('../partials/cursoInContenido.ejs',) %>
+        <div class="div3-principalCursos_articulo">
+        <p class="div3-principalCursos_articulo-p">40%</p>
+        <p  class="div3-principalCursos_articulo-p2">Contenido</p>
+      </div>
+      </div>
+      
+      <div class="div-principalCursos_articulo">
+      
+        <%- include('../partials/cursoInModulo.ejs',) %>
+        <div class="div3-principalCursos_articulo">
+        <p class="div3-principalCursos_articulo-p">9/10</p>
+        <p class="div3-principalCursos_articulo-p2">Modulo</p>
+      </div>
+      </div>
+     </article>   
+
+
+
+
+          </article>
+        </section>
+      </section>
+
+      <section>
+
+        <h2 class="section_principalCursos-section-h2">Contenido</h2>
+        <section class="section_principalCursos-section-3">
+
+
+          <div class="section_principalCursos-section-5">
+            <div class="section_principalCursos-section-2">
+              <%- include('../partials/cursoInNumeros.ejs',) %>
+            </div>
+            <div class="section_principalCursos-section-4">
+              <%- include('../partials/cursoInNumeros.ejs',) %>
+            </div>
+          </div>
+
+          <div class="section_principalCursos-section-7">
+            <div class="section_principalCursos-section-6">
+              <p>Módulo 1</p>
+              <h4>Introducción</h4>
+              <p>5 clases</p>
+
+
+
+              <div class="accordion">
+                <details>
+                  <summary>Clase 1 Bienvenida</summary>
+                  <div class="accordion-div"><ul>
+                    <li><a href="/contennido"><i class="fa-solid fa-video" style="color:  #2a3e5e ;"></i>  Bienvenida e informacion institucional</li></a>
+                    <li><i class="fa-regular fa-clipboard" style="color:  #2a3e5e ;" ></i>  ¿Como enseñamos?</li>
+                    <li><i class="fa-regular fa-clipboard" style="color:  #2a3e5e ;"></i>  La experiencia</li>
+                    <li><i class="fa-solid fa-video" style="color:  #2a3e5e ;"></i>  Uso de Herramientas</li>
+                    <li><i class="fa-solid fa-video" style="color:  #2a3e5e ;"></i>  Pensamiento computacional</li>
+                    <li><i class="fa-regular fa-clipboard" style="color:  #2a3e5e ;"></i>  Alfabetizacion digital</li>
+                    <li><i class="fa-regular fa-pen-to-square" style="color:  #2a3e5e ;"></i>  Dejanos tus dudas</li>
+                  </ul>
+                  </div>
+                </details>
+                <details>
+                  <summary>Chocolate bar</summary>
+                  <div>Lollipop dessert sweet roll liquorice jelly-o marzipan. Lemon drops icing marshmallow soufflé
+                    soufflé. Gingerbread croissant gummi bears brownie chocolate bar pudding.
+
+                  </div>
+                </details>
+                <details>
+                  <summary>Donut gummies</summary>
+                  <div>Halvah muffin toffee bear claw jujubes. Liquorice jelly marzipan toffee macaroon bonbon tootsie
+                    roll toffee soufflé. Jelly pie gummies muffin tart soufflé ice cream liquorice apple pie. Sugar plum
+                    bear claw chocolate bar croissant bear claw tiramisu topping.</div>
+                </details>
+              </div>
+
+
+            </div>
+          </div>
+
+        </section>
+      </section>
+
+
+
+    </main>
+    <%- include('../partials/scripts.ejs') %>
+
+</body>
+
+</html>

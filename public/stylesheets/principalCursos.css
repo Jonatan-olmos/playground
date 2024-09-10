@@ -1,0 +1,347 @@
+.main_principalCursos{
+background:  #efefec;
+}
+
+.breadcrumb{
+    padding: 40px;
+ 
+}
+.section_principalCursos-section{
+    width: 70%;
+}
+.section_principalCursos-section-h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0e0e15 ;
+    padding-left: 30px;
+}
+.main_principalCursos_a{
+        outline: none;
+        text-decoration: none;
+       color:  #8b9599;
+       font-size:medium;
+
+     
+}
+.main_principalCursos_b{
+    outline: none;
+    text-decoration: none;
+   color:  #0e0e15;
+   font-size:medium;
+   font-weight: bold;
+
+
+ 
+}
+.nav_principalCursos .breadcrumb-item + .breadcrumb-item::before {
+    outline: none;
+        text-decoration: none;
+       color:  #8b9599;
+    font-weight: bold;
+      
+       font-size:medium;
+}
+.section_principalCursos{
+    display: flex;
+    flex-direction: row;
+}
+.main_principalCursos_articulo{
+    background-color:    #e4e4e4  ;
+    margin: 30px;
+    border: 1px solid    #e4e4e4    ;
+    width: 95%;
+    height: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.main_principalCursos_articulo_div{
+    background-color:  #cbcccc ;
+    border: 1px solid  #d4d3d5 ;
+    width: 35%;
+    height: 90%px;
+    border-radius: 5px;
+    margin: 20px;
+
+
+	
+}
+.main_principalCursos_articulo_div1{
+    height: 100px;
+    width: 100PX;
+   
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+.fa-play{
+    display: table-cell;
+    height: 100px;
+    width: 100px;
+    font-size: 40px;
+    vertical-align: middle;
+}
+
+.main_principalCursos_articulo_div2{
+    height: 10px;
+    width: 60PX;
+   background-color: #375ecf;
+    border: 2px solid #375ecf;
+
+    position: relative;
+    top: 58px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main_principalCursos_articulo_h3{
+   color:   #8b9599  ;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.div_principalCursos_articulo-1{
+    padding-top:22px ;
+
+}
+.main_principalCursos_articulo_h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.main_principalCursos_articulo_p{
+    font-size: 10px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    padding-right:10px ;
+    font-weight: bold;
+    background-color: white;
+}
+.main_principalCursos_articulo_x{
+    font-size: 10px;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 30px;
+    margin-left: 10px;
+    background-color: white;
+}
+.div_principalCursos_titulo-modulo{
+    display: flex;
+    flex-direction:row;
+   position: relative;
+  top: 50px;
+  
+    
+}
+.section_principalCursos-section-1{
+    background-color:   #e4e4e4   ;
+    width: 28%;
+    height: 300px;
+    border-radius: 15px;
+
+}
+.section_principalCursos-section-2{
+    background-color:   #e4e4e4  ;
+    width: 70px;
+    height: 90px;
+   border-top-left-radius: 20px;
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    
+ 
+
+
+}
+.section_principalCursos-section-4{
+    background-color:   #e4e4e4  ;
+    width: 70px;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    padding: 20px 5px;
+ 
+}
+
+.section_principalCursos-section-2 div{
+    text-align: center;
+    top: 23px;
+    left: 5px;
+}
+.section_principalCursos-section-3 {
+    display: flex;
+    flex-direction:row;
+    
+}
+.section_principalCursos-section-6{
+    background-color:   #e4e4e4  ;
+
+   padding-left: 10px;
+   padding-top: 50px;
+   top: 23px;
+   border-top-right-radius: 20px;
+
+
+}
+.section_principalCursos-section-7{
+    padding-top: 40px;
+    width: 61%;
+    height: 100%;
+
+padding-left: 10px;
+}
+
+.article-principalCursos_articulo{
+    display: flex;
+    flex-direction:row;
+    padding-left: 30px;
+
+}
+.div-principalCursos_articulo{
+    display: flex;
+    flex-direction:row;
+    padding-right: 30px;
+
+}
+.div2-principalCursos_articulo{
+    display: flex;
+    flex-direction:row;
+    padding-left: 20px;
+
+}
+.div-principalCursos_articulo div p{
+    display: flex;
+    flex-direction:row;
+    padding-left: 10px;
+    
+   
+}
+.div3-principalCursos_articulo-p{
+    margin: 0px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    color:  #0e0e15;
+    font-weight: bold;
+    font-size: 20px;
+}
+.div3-principalCursos_articulo-p2{
+  
+    color:  #8b9599;
+    font-weight: bold;
+   
+}
+.main_principalCursos_izquierda_h2{
+    font-weight: bold;
+    padding-left: 30px;
+}
+.main_principalCursos_izquierda_p{
+    padding: 10px 35px; 
+    font-weight: bold;
+    font-size: 15px;
+
+}
+/*
+.accordion-item{
+    margin: 20px;
+    width: 93%;
+    border-radius: 20px;
+    background-color:  #cbcccc;
+}   
+.accordion{
+    border-top-left-radius: 20px;
+
+}
+.accordion-button{
+    border-radius: 20px;
+
+}
+
+.accordion-button {
+    background-color:  #cbcccc;  Cambia el fondo a negro 
+  
+   
+
+}
+
+.accordion-button:not(.collapsed) {
+    border-radius: 20px;
+    background-color:  #cbcccc;
+}
+
+.accordion-button:hover {
+    border-radius: 20px;
+
+    background-color:  #cbcccc; 
+}*/
+
+
+details {
+    margin: 5px;
+    font-size: 15px;
+  }
+  details > * {
+    padding: .75rem;
+  }
+  details > div {
+    background:  #cbcccc;
+    border-radius: 0 0 5px 5px;
+  }
+  summary {
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #0e0e15;
+    background:  #cbcccc;
+    cursor: pointer;
+    position: relative;
+    transition: .3s;
+    text-indent: 0px;
+  }
+  summary::marker {
+    content: "";
+  }
+  summary::before {
+    content:"";
+    position:absolute;
+    inset: .75rem;
+    left: auto;
+    aspect-ratio: 1;
+    background: 
+     conic-gradient(from 90deg at 26% 26%, #0000 90deg, #0e0e15 0) 
+      100% 100%/58% 58%;
+    clip-path: inset(1px);
+    transition: .3s;
+  }
+  details[open] summary::before {
+    transform: rotate(45deg);
+  }
+  details[open] summary {   
+    border-radius: 5px 5px 0 0;
+    background:  #cbcccc;
+    text-indent: 1rem;
+  }
+
+  .accordion-div ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+  }
+  .accordion-div ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #0e0e15;
+  
+  }
+  .accordion-div ul li{
+  
+    padding: 10px;
+  }
+  
