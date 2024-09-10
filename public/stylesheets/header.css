@@ -4,28 +4,42 @@
 border-bottom: 1px solid black;
 }
 .section_div{
-width: 20%;
-padding-left: 50px;
-padding-right: 0px;
+width: 15%;
+
+padding: 0px;
 font-size:10px;
 }
+.section_div h1{
+    padding:10PX;
+padding-top:20PX;
+    font-size:20px;
+    }
 .section_div_2{
-    padding-top: 5px;
+ 
     padding-left: 0px; 
 font-size:7px;
 
 }
+.section_div_2 h2{
+    padding:10PX;
+    padding-top:20PX;
+    font-size:15PX
+}
+
 .section_div_p{
     background-color: aqua;
     border-radius: 20px;
-    height:25px;
-    width: 25px;
+    height:35px;
+    width: 35px;
     text-align: center;
-    margin-top: 8px;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
  }
 .section_div_3{
-    position: fixed;
-    right: 50px;
-  padding-bottom: 15px;
+    position: absolute;
+    right:  30px;
+    top: 5px;
+  padding-bottom: 10px;
 
 }

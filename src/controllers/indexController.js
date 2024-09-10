@@ -24,6 +24,21 @@ module.exports ={
     
         )
     },
-
+    contenido :(req, res) =>{
+       
+        //return res.send(products)
+        return res.render('paginas/contenido',
+            ({title : 'hola'})
+    
+        )
+    },
+    consola :(req, res) =>{
+       
+        //return res.send(products)
+        return res.render('consolas/consola',
+            ({title : 'hola'})
+    
+        )
+    },
     
 }

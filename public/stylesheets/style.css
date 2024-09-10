@@ -2,4 +2,15 @@
 @import './general.css';
 @import './header.css';
 @import'./inicio.css';
-@import'./tableCursos.css'
+@import'./tableCursos.css';
+@import'./principalCursos.css';
+@import'./circulo.css';
+@import'./circuloModulo.css';
+@import'./circuloNumero.css';
+@import'./contenido.css';
+
+@import'./circuloContenido.css'
+
+
+
+
