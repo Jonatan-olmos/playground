@@ -1,0 +1,166 @@
+<% if (seccionCuerpo, seccionTitulo) { %>   
+    <div class="section_contenido_div_descripcion">
+   <h2 class="section_contenido_h2"><%= seccionTitulo %></h2>
+   <p class="section_contenido_p"><%= seccionCuerpo %></P>
+
+ 
+   <% if (li1 ) { %> 
+       
+   <div class="section_contenido_div">
+     <ul class="section_contenido_ul">
+        <% liTitulo.forEach((titulo, index) => { %>
+            <li><b><%= Object.values(titulo)[0] %></b>: <%= Object.values(li1[index])[0] %></li>
+          <% }); %>
+   
+
+     </ul>
+ <p class="section_contenido_p"><%=seccionbajoli %></P>
+    </div>  
+ <% } %>
+ <% if (pdf2) { %>
+    <div class="section_contenido_div_seccion-4-pdf">
+    
+     <embed src="../pdf/<%=pdf2%>.pdf" type="application/pdf" width="100%" height="600px" style="border-radius: 10px;">
+    </div>
+    <% } %>
+ </div>
+<% } %>
+
+
+<% if (seccion_5,seccion_5_titulo,urlview) { %>
+<div class="section_contenido_div_seccion-4">
+ <h2 class="section_contenido_h2"><%= seccion_5_titulo %></h2>
+
+ <div style="width: 99.5%;padding: 25px">
+    <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title=" <%=seccion_5 %>" frameborder="0" width="100%" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+     src="<%= urlview %>"
+     type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
+
+</div>
+
+
+
+<% } %>
+
+
+
+<% if (video) { %>
+<div class="section_contenido_div_seccion-2">
+
+   
+<video  src="/videos/<%=video%>.webm" width=100%  height=350 controls >
+
+</div>
+<% } %>
+<% if (seccion_2_titulo,seccion_2_cuerpo ) { %>   
+<div class="section_contenido_div_descripcion-5">
+<h2 class="section_contenido_h2"><%= seccion_2_titulo %></h2>
+<p class="section_contenido_p">  <%=seccion_2_cuerpo %></p>
+
+</div>
+
+<% } %>
+
+
+<% if (seccion_3, seccion_3_titulo ) { %>
+<div class="section_contenido_div_seccion-3">
+  <h2 class="section_contenido_h2"><%= seccion_3_titulo %></h2>
+
+ <embed src="../pdf/<%=seccion_3%>.pdf" type="application/pdf" width="100%" height="600px" style="border-radius: 10px;">
+</div>
+<% } %>
+
+<% if (seccion_4) { %>
+<div class="section_contenido_div_seccion-3">
+<h2 class="section_contenido_h2"><%= seccion_4_titulo %></h2>
+
+ <p class="section_contenido_p">  <%=seccion_4 %></p>
+ <% if (li1 ) { %> 
+       
+    <div class="section_contenido_div">
+      <ul class="section_contenido_ul">
+        
+        <% li2.forEach(item => { %>
+        <li>  <%= Object.values(item)[0] %></li>
+          <% }); %>
+ 
+      </ul>
+      <p class="section_contenido_p-2"><%=seccionbajoli2 %></P>
+        <ul class="section_contenido_ul">
+        
+            <% li3.forEach(item => { %>
+            <li>  <%= Object.values(item)[0] %></li>
+              <% }); %>
+     
+          </ul>
+      <p class="section_contenido_p-2"><%=seccionbajoli3 %></P>
+
+     </div>
+   
+      
+  <% } %>
+</div>
+<% } %>
+<% if (seccion_7, seccion_7_titulo ) { %>
+  <div class="section_contenido_div_seccion-3">
+    <h2 class="section_contenido_h2"><%= seccion_7_titulo %></h2>
+  
+   <embed src="../pdf/<%=seccion_7%>.pdf" type="application/pdf" width="100%" height="600px" style="border-radius: 10px;">
+  </div>
+  <% } %>
+
+  <style>
+ 
+    .question-container {
+        display: none; /* Ocultar todas las preguntas inicialmente */
+        margin-bottom: 20px;
+    }
+    .active {
+        display: block; /* Mostrar solo la pregunta activa */
+    }
+    button {
+        margin-top: 10px;
+    }
+</style>
+  <div id="question1" class="question-container active">
+    <h2>Poniendo en práctica lo aprendido</h2>
+    
+    <button onclick="nextQuestion(1)">Iniciar</button>
+    <button onclick="nextQuestion(1)">Ver intento anteriorwge</button>
+</div>
+
+<div id="question2" class="question-container">
+    <h2>¿Cuál es tu color favorito?</h2>
+    <input type="text" id="answer2" placeholder="Escribe tu respuesta aquí">
+    <button onclick="nextQuestion(2)">Siguiente</button>
+</div>
+
+<div id="question3" class="question-container">
+    <h2>¿Qué te gusta hacer en tu tiempo libre?</h2>
+    <input type="text" id="answer3" placeholder="Escribe tu respuesta aquí">
+    <button onclick="submitAnswers()">Enviar</button>
+</div>
+</article>
+
+<script>
+  function nextQuestion(current) {
+      // Ocultar la pregunta actual
+      document.getElementById('question' + current).classList.remove('active');
+      // Mostrar la siguiente pregunta
+      document.getElementById('question' + (current + 1)).classList.add('active');
+  }
+
+  function submitAnswers() {
+      const answer1 = document.getElementById('answer1').value;
+      const answer2 = document.getElementById('answer2').value;
+      const answer3 = document.getElementById('answer3').value;
+
+      // Aquí puedes manejar las respuestas como desees
+      //alert(`Respuestas:\nNombre: ${answer1}\nColor Favorito: ${answer2}\nTiempo Libre: ${answer3}`);
+
+      // Opcionalmente, puedes reiniciar el formulario o redirigir a otra página
+      // location.reload(); // Para reiniciar
+      // window.location.href = 'otra_pagina.html'; // Para redirigir
+  }
+</script>

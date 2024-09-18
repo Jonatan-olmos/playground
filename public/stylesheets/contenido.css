@@ -1,86 +1,174 @@
-.main_contenido{
-    background:  #efefec;
-   
-    }
-    .section_contenido{
-        display: flex;
-        flex-direction: row;
-    }
+.main_contenido {
+    background: #efefec;
+    padding-bottom: 40px;
+}
 
-    .section_contenido_article{
+.section_contenido {
+    display: flex;
+    flex-direction: row;
+}
+
+.section_contenido_article {
     width: 73%;
-    
-    
-    }
-    .section_contenido_article-section{
-        display: flex;
-        flex-direction: row;
-    }
-    .section_contenido_div_flecha{
-  
-        text-align: center;
-    }
 
-    .section_contenido_div_titulo{
-        margin-left: 40px;
-        margin-bottom: 10px;
-        padding-bottom: 30px;
-        padding-top: 10px;
-        width: 67%;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #cbcccc ;
-        text-align: center;
-    }
-    .section_contenido_div_flecha-left{
-        margin-left: 40px;
-        padding: 20px;
-        width: 60px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #cbcccc ;
-    }
-    .section_contenido_div_flecha{
-        margin-left: 30px;
-        padding: 20px;
-        width: 60px;
-        height: 40px;
-        border-radius: 10px;
-        background-color: #cbcccc ;
 
-    }
-    .section_contenido_div_titulo-h3{
-        font-size: 15px;
-        vertical-align: text-bottom;
-    }
-    .section_contenido_div_titulo-h3 i{
-        font-size: 20px;
-       position: relative;
-       bottom: 10px;
-    }
+}
 
-    .section_contenido_div_descripcion{
-      margin-left: 40px;
-      margin-top: 20px;
-        width: 86%;
-      
-        border-radius: 10px;
-        background-color: #cbcccc ;
-        text-align: center;
-    }
+.section_contenido_article-section {
+    display: flex;
+    flex-direction: row;
+}
 
-    .section_contenido_h2{
-        font-size: 30px;
-        text-align: left;
+.section_contenido_div_flecha {
+
+    text-align: center;
+}
+
+.section_contenido_div_titulo {
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    width: 67%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #cbcccc;
+    text-align: center;
+}
+
+.section_contenido_div_flecha-left {
+    margin-left: 40px;
+    padding: 20px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #cbcccc;
+}
+
+.section_contenido_div_flecha {
+    margin-left: 30px;
+    padding: 20px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #cbcccc;
+
+}
+
+.section_contenido_div_titulo-h3 {
+    font-size: 15px;
+    vertical-align: text-bottom;
+}
+
+.section_contenido_div_titulo-h3 i {
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+.section_contenido_div_descripcion {
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 86%;
+
+    border-radius: 10px;
+    background-color: #cbcccc;
+    text-align: center;
+}
+
+.section_contenido_h2 {
+    font-size: 30px;
+    text-align: left;
     font-weight: bold;
     line-height: 40px;
     padding: 5px 20px;
 
-    }
-    .section_contenido_p{
-        font-size: 15px;
+}
+
+.section_contenido_p {
+    font-size: 15px;
     line-height: 25px;
 
-        text-align: left;
-        padding: 5px 20px;
-    }
+    text-align: left;
+    padding: 5px 20px;
+}
+
+.section_contenido_div_seccion-2 {
+    background-color: #cbcccc;
+    width: 86%;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+
+}
+
+.section_contenido_div_seccion-3 {
+    background-color: #cbcccc;
+    width: 86%;
+
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+}
+.section_contenido_div_seccion-4-pdf{
+    background-color: #cbcccc;
+    width: 86%;
+
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+}
+
+.section_contenido_div_seccion-4 {
+    background-color: #cbcccc;
+    width: 86%;
+
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+
+
+
+}
+
+.section_contenido_div_descripcion-5 {
+    background-color: #cbcccc;
+    width: 86%;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.section_contenido_ul li {
+    padding: 0px
+}
+
+.section_contenido_div {
+    padding: 20px;
+    text-align: left;
+}
+
+.section_contenido_ul li b {
+    padding-right: 6px;
+    padding-left: 0px;
+
+}
+
+.seccionbajoli {
+    padding: 0px;
+}
+.section_contenido_p-2{
+    padding: 0px;
+    font-size: 15px;
+}
+.section_contenido_div_seccion-4-pdf{
+    width: 100%;
+    max-width:850px ;
+    margin-left: 0px;
+}

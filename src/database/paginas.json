@@ -1,0 +1,267 @@
+[
+    {
+        "id": 1,
+        "titulo": "Clase 1- Bienvenida",
+        "seccionTitulo": "¡Les damos la bienvenida al curso de Programación Web Full Stack! ",
+        "seccionCuerpo": "Los invitamos a sumergirse en este mundo, conocer las tecnologías más novedosas y las herramientas que necesitamos para desarrollar un sitio web de punta a punta. A lo largo de toda la cursada vamos a trabajar en equipo, pensar proyectos, resolver desafíos, investigar y meter mucho las manos en el código.",
+        "seccion_4": "",
+        "seccion_5": "",
+        "seccion_5_titulo": "",
+        "seccion_2_titulo": "Sobre Digital House",
+        "seccion_2_cuerpo": "Además del equipo académico y los profesores, muchos otros equipos estarán acompañando nuestra cursada buscando que, ante cualquier necesidad, siempre haya alguien para ayudarnos.",
+        "seccion_3": "Sobre Digital House",
+        "video": "bienvenida",
+        "liTitulo": "",
+        "li1": "",
+        "seccionbajoli": "",
+        "seccion_4_titulo": "",
+        "li3": "",
+        "seccionbajoli2": "",
+        "pdf2": "",
+        "urlview": "",
+        "pdf3": "",
+        "seccion_3_titulo": "",
+"seccion_7": "",
+        "seccion_7_titulo": "",
+        "li2": ""
+    },
+    {
+        "id": 2,
+        "titulo": "¿Cómo enseñamos?",
+        "seccionTitulo": "¿Cómo enseñamos? ",
+        "seccionCuerpo": "Desde Digital House basamos nuestra metodología de enseñanza en cuatro pilares que cruzan cada una de nuestras propuestas. Te invitamos a conocerlos.",
+        "seccion_2_cuerpo": "Para lograr todo esto, en Digital House enseñamos a través de la metodología del aula invertida. Es una metodología que propone transferir parte del aprendizaje fuera del aula con el objetivo de utilizar el tiempo de clase en vivo para abordar cuestiones complejas,fomentar la interacción y el aprendizaje significativo.",
+        "seccion_4": "En nuestro modelo de aprendizaje promovemos la idea de trabajar en la resolución de problemas mediante proyectos que recreen situaciones reales y mediante desafíos similares a los que nos enfrentaremos en el mercado laboral. Por eso, a lo largo de toda la cursada trabajaremos en equipo para realizar un proyecto integrador. Nuestro interés pedagógico como institución está vinculado con la comprensión y las capacidades de desarrollo de los estudiantes para pensar y conocer cada vez mejor. Buscamos que al finalizar el curso cada uno de nosotros pueda trabajar como desarrollador jr. y estar listos para enfrentarnos a los desafíos de un trabajo en el ámbito de lo digital.",
+        "seccion_5_titulo": " Nuestra metodología",
+        "video": "",
+        "seccion_2_titulo": " ",
+        "seccion_3": "",
+        "seccionbajoli2": "",
+        "seccion_5": " Nuestra-metodología",
+        "li1": "",
+        "liTitulo": "",
+        "seccionbajoli": "",
+        "seccion_4_titulo": "",
+        "li3": "",
+        "pdf2": "",
+        "pdf3": "",
+        "seccion_3_titulo": "",
+"seccion_7": "",
+        "seccion_7_titulo": "",
+        "urlview": "https://view.genially.com/66e4c2e88ebea355c9b6e231",
+        "li2": ""
+
+    },
+    {
+        "id": 3,
+        "titulo": "La experiencia",
+        "seccionTitulo": "La cursada",
+        "seccionCuerpo": "La experiencia que proponemos consta de:",
+        "liTitulo": [
+            {
+                "1": "Clases virtuales"
+            },
+            {
+                "2": "Clases en vivo"
+            },
+            {
+                "3": "Clases de práctica"
+            }
+        ],
+        "video": "",
+        "li1": [
+            {
+                "1": "las vas a encontrar en Playground. Está dividida por módulos, temas y en cada uno de ellos encontraremos videos, resumenes y ejercicios. Es importante que hayamos realizado las actividades correspondientes antes de la clase en vivo."
+            },
+            {
+                "2": "encuentro sincrónico a través de Zoom. La asistencia es obligatoria. Te encontrarás con tus profes y compañeros para trabajar en equipo, resolver dudas y realizar ejercitaciones complejas. Cada encuentro tiene un tema que se corresponde con la clase virtual correspondiente, Estas clases serán grabadas y los videos estarán disponibles en Playground, no se podrán descargar."
+            },
+            {
+                "3": "serán en vivo a través de Zoom. Allí nos encontraremos con nuestros profesores y el resto del grupo para realizar ejercitaciones y despejar dudas. Sugerimos que los aprovechen al máximo. ¡El verdadero aprendizaje está en la práctica!"
+            }
+        ],
+        "seccionbajoli": "Buscaremos generar una experiencia inmersiva y transmedia. Por eso, a lo largo de la cursada encontraremos distintos recursos y propuestas en donde te propondremos ser protagonista. Las narrativas transmedia permiten generar entornos de aprendizajes cercanos y provocar la interacción. Veamos en profundidad cómo sería una semana de cursada para que podamos organizarnos mejor. Además, les contamos cómo vamos a trabajar a lo largo de la cursada y qué condiciones se tienen que cumplir para aprobar el curso.",
+        "seccion_2_cuerpo": "",
+        "seccion_4_titulo": "¿Cómo aprobamos el curso?",
+        "seccion_4": "Nuestra forma de evaluar si están preparados o no para salir al mercado laboral está compuesta de estos cuatro ítems que les presentamos anteriormente:",
+        "seccion_5_titulo": "",
+        "seccion_2_titulo": "",
+        "seccion_3": "La cursada",
+        "seccion_5": "",
+        "urlview": "",
+        "li2": [
+            {
+                "1": "Aprobación del proyecto integrador grupal."
+            },
+            {
+                "2": "Realizar las actividades propuestas en Playground."
+            },
+            {
+                "3": "Asistencia a las clases en vivo."
+            },
+            {
+                "4": "Entrega de ejercicios individuales."
+            }
+        ],
+        "li3": [
+            {
+                "1": "Asistencia: consideramos que el espacio de clase es una instancia fundamental, donde sucede lo sustancial del curso: explicaciones, casos, talleres, trabajo en el proyecto integrador. Esto no puede ser reemplazado mediante el trabajo individual o por fuera del establecimiento con otros materiales. Se deberá tener un 80% de asistencia."
+            },
+            {
+                "2": "Ejercicios individuales: son ejercicios puntuales seleccionados de entre los que se realizan en las clases en vivo. No se preocupen, les vamos a avisar con anticipación."
+            },
+            {
+                "3": "Proyecto integrador: tendremos en cuenta el 80% de aprobación de las instancias parciales (sprints) con sus requerimientos técnicos y su respectiva entrega en tiempo y forma. En caso de que no se cumplan todos los requerimientos, se acumulan para el siguiente sprint o entrega. Además, es importante que tengamos realizados el 100% de los requerimientos obligatorios al finalizar la cursada en la entrega final del proyecto. Dentro de los sprints se pedirán distintas entregas para visualizar el trabajo en equipo. Algunas de estas visualizaciones son: entregas de retrospectivas y el tablero de Trello.El proyecto será evaluado con una rúbrica en la que se podrán encontrar todos los requerimientos, habilidades y herramientas que tendremos en cuenta para su aprobación. Brindaremos una devolución luego de cada entrega parcial para poder mejorar en la siguiente iteración."
+            },
+            {
+                "4": "Actividades en Playground: son muy importantes para llegar preparados a la clase en vivo. Por eso, vamos a tener en cuenta la realización de las ejercitaciones propuestas y una actividad de reflexión sobre el aprendizaje al finalizar cada módulo."
+            }
+        ],
+        "seccionbajoli2": "Sabemos que si cumplen con estos requisitos, van a poder trabajar como desarrolladores jr.Queremos contarles por qué elegimos estos ítems como requisitos para la aprobación del curso y en qué consisten:",
+        "pdf2": "",
+        "seccion_3_titulo": "",
+        "pdf3": "",
+        "seccion_7": "",
+        "seccion_7_titulo": "",
+        "seccionbajoli3": "Ante cualquier duda sobre los criterios de aprobación o los avances en el curso, es importante que nos comuniquemos con el equipo docente o el/la tutor/a del Departamento de Alumnos."
+    },
+    {
+        "id": 4,
+        "titulo": "Uso de Herramientas",
+        "seccionTitulo": "Uso de Playground",
+        "seccionCuerpo": "",
+        "liTitulo": [
+            ""
+        ],
+        "video": "",
+        "li1": "",
+        "seccionbajoli": "",
+        "seccion_2_cuerpo": "",
+        "seccion_4_titulo": "",
+        "seccion_4": "",
+        "seccion_5_titulo": "",
+        "seccion_6_titulo": "",
+
+        "seccion_2_titulo": "",
+        "seccion_3": "Tutorial Discord",
+        "seccion_3_titulo": "Uso de Discord",
+
+        "seccion_5": "",
+        "li2": [
+            ""
+        ],
+        "urlview": "",
+        "li3": [
+            ""
+        ],
+        "seccionbajoli2": "",
+        "seccionbajoli3": "",
+        "pdf2": "M01C01 - Uso Playground",
+        "seccion_7": "",
+        "seccion_7_titulo": "",
+        "pdf3": "Tutorial Discord"
+    },
+    {
+        "id": 5,
+        "titulo": "Pensamiento computacional",
+        "seccionTitulo": "Pensamiento Computacional",
+        "seccionCuerpo": "Cuando vamos a cocinar algo, empezamos buscando la receta para ver qué ingredientes y utensilios vamos a necesitar. De la misma forma, en una analogía rápida, el pensamiento computacional aparece como el paso previo a programar y consiste en adaptar nuestra forma de razonar para poder resolver un problema lógico. Es importante entender cómo se tiene que pensar al programar para poder resolver un problema considerando que nuestro receptor no tiene “sentido común”, sino que solo recibe instrucciones precisas para ejecutarlas. Por eso, antes de empezar a programar, tenemos que aprender a resolver problemas y entender qué debemos tener en cuenta para poder transmitirle a una computadora las instrucciones que queremos que ejecute.",
+        "liTitulo": "",
+        "video": "",
+        "li1": "",
+        "seccionbajoli": "",
+        "seccion_2_cuerpo": "",
+        "seccion_4_titulo": "",
+        "seccion_4": "",
+        "seccion_5_titulo": "",
+        "seccion_6_titulo": "",
+
+        "seccion_2_titulo": "",
+        "seccion_3": "",
+        "seccion_3_titulo": "",
+
+        "seccion_5": "",
+        "li2": [
+            ""
+        ],
+        "urlview": "",
+        "li3": [
+            ""
+        ],
+        "seccionbajoli2": "",
+        "seccionbajoli3": "",
+        "pdf2": "",
+        "pdf3": "",
+        "seccion_7": "",
+        "seccion_7_titulo": ""
+    },
+    {
+        "id": 6,
+        "titulo": "Alfabetización digital",
+        "seccionTitulo": "Alfabetización Digital",
+        "seccionCuerpo": "Por si aún no los leíste, volvemos a compartirte estos archivos que contienen información muy valiosa sobre el uso de nuevas tecnologías. Esta información es muy relevante para sentar las bases sobre las que construiremos los conceptos de programación que veremos durante el curso.",
+        "liTitulo": "",
+        "video": "",
+        "li1": "",
+        "seccionbajoli": "",
+        "seccion_2_cuerpo": "",
+        "seccion_4_titulo": "",
+        "seccion_4": "",
+        "seccion_5_titulo": "",
+        "seccion_6_titulo": "",
+
+        "seccion_2_titulo": "",
+        "seccion_3": "Alfabetización Digital I",
+        "seccion_3_titulo": "Alfabetización Digital I",
+        "seccion_7": "Alfabetización Digital II",
+        "seccion_7_titulo": "Alfabetización Digital II",
+        "seccion_5": "",
+        "li2": [
+            ""
+        ],
+        "urlview": "",
+        "li3": [
+            ""
+        ],
+        "seccionbajoli2": "",
+        "seccionbajoli3": "",
+        "pdf2": "",
+        "pdf3": ""
+    },
+    {
+        "id": 7,
+        "titulo": "Dejanos tus dudas",
+        "seccionTitulo": "",
+        "seccionCuerpo": "",
+        "liTitulo": "",
+        "video": "",
+        "li1": "",
+        "seccionbajoli": "",
+        "seccion_2_cuerpo": "Encontrarás este cuestionario al finalizar cada clase. El mismo tiene como objetivo recopilar las dudas que surjan luego de interactuar con el contenido de cada clase. Es muy importante que lo completes con tiempo para que podamos incorporar aquello que no haya quedado claro en la planificación de la clase o, directamente, responderte a través de Discord.",
+        "seccion_4_titulo": "",
+        "seccion_4": "",
+        "seccion_5_titulo": "",
+        "seccion_6_titulo": "",
+
+        "seccion_2_titulo": "",
+        "seccion_3": "",
+        "seccion_3_titulo": "",
+        "seccion_7": "",
+        "seccion_7_titulo": "",
+        "seccion_5": "",
+        "li2": [
+            ""
+        ],
+        "urlview": "",
+        "li3": [
+            ""
+        ],
+        "seccionbajoli2": "",
+        "seccionbajoli3": "",
+        "pdf2": "",
+        "pdf3": ""
+    },
+    {
+        "id": 10
+    }
+]

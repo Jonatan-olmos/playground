@@ -103,32 +103,13 @@
 
 
               <div class="accordion">
-                <details>
-                  <summary>Clase 1 Bienvenida</summary>
-                  <div class="accordion-div"><ul>
-                    <li><a href="/contennido"><i class="fa-solid fa-video" style="color:  #2a3e5e ;"></i>  Bienvenida e informacion institucional</li></a>
-                    <li><i class="fa-regular fa-clipboard" style="color:  #2a3e5e ;" ></i>  ¿Como enseñamos?</li>
-                    <li><i class="fa-regular fa-clipboard" style="color:  #2a3e5e ;"></i>  La experiencia</li>
-                    <li><i class="fa-solid fa-video" style="color:  #2a3e5e ;"></i>  Uso de Herramientas</li>
-                    <li><i class="fa-solid fa-video" style="color:  #2a3e5e ;"></i>  Pensamiento computacional</li>
-                    <li><i class="fa-regular fa-clipboard" style="color:  #2a3e5e ;"></i>  Alfabetizacion digital</li>
-                    <li><i class="fa-regular fa-pen-to-square" style="color:  #2a3e5e ;"></i>  Dejanos tus dudas</li>
-                  </ul>
-                  </div>
-                </details>
-                <details>
-                  <summary>Chocolate bar</summary>
-                  <div>Lollipop dessert sweet roll liquorice jelly-o marzipan. Lemon drops icing marshmallow soufflé
-                    soufflé. Gingerbread croissant gummi bears brownie chocolate bar pudding.
+               
+           
 
-                  </div>
-                </details>
-                <details>
-                  <summary>Donut gummies</summary>
-                  <div>Halvah muffin toffee bear claw jujubes. Liquorice jelly marzipan toffee macaroon bonbon tootsie
-                    roll toffee soufflé. Jelly pie gummies muffin tart soufflé ice cream liquorice apple pie. Sugar plum
-                    bear claw chocolate bar croissant bear claw tiramisu topping.</div>
-                </details>
+                <% cursos.forEach(curso => { %>
+                  <%- include('../partials/TitulosCurso', {principal: curso.principal, titulo: curso.titulo,id: curso.id, temass: curso.temass,clipboard:curso.clipboard, clipboard_2: curso.clipboard_2, video: curso.video, video2: curso.video2, clipboard_3: curso.clipboard_3,square : curso.square }) %>
+              <% }); %>
+            
               </div>
 
 

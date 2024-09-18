@@ -8,7 +8,7 @@ router
 .get('/inicio',inicio)
 .get('/inicio',inicio)
 .get('/principalCursos',principalCursos)
-.get('/contennido',contenido)
+.get('/contennido/:id',contenido)
 
 .get('/consola',consola)
 
